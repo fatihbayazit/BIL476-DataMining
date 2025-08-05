@@ -1,0 +1,13 @@
+{"time":"2025-07-29T21:13:16.985198+03:00","level":"INFO","msg":"stream: starting","core version":"0.21.0"}
+{"time":"2025-07-29T21:13:17.329659+03:00","level":"INFO","msg":"stream: created new stream","id":"grly5vnf"}
+{"time":"2025-07-29T21:13:17.329695+03:00","level":"INFO","msg":"stream: started","id":"grly5vnf"}
+{"time":"2025-07-29T21:13:17.329701+03:00","level":"INFO","msg":"handler: started","stream_id":"grly5vnf"}
+{"time":"2025-07-29T21:13:17.329721+03:00","level":"INFO","msg":"writer: Do: started","stream_id":"grly5vnf"}
+{"time":"2025-07-29T21:13:17.329722+03:00","level":"INFO","msg":"sender: started","stream_id":"grly5vnf"}
+{"time":"2025-07-29T21:15:09.80278+03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-07-29T21:15:09.92147+03:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading history steps 9-10, summary, console lines 34-35","runtime_seconds":0.117541708}],"total_operations":1}}
+{"time":"2025-07-29T21:15:10.32565+03:00","level":"INFO","msg":"stream: closing","id":"grly5vnf"}
+{"time":"2025-07-29T21:15:10.325689+03:00","level":"INFO","msg":"handler: closed","stream_id":"grly5vnf"}
+{"time":"2025-07-29T21:15:10.325706+03:00","level":"INFO","msg":"sender: closed","stream_id":"grly5vnf"}
+{"time":"2025-07-29T21:15:10.325706+03:00","level":"INFO","msg":"writer: Close: closed","stream_id":"grly5vnf"}
+{"time":"2025-07-29T21:15:10.325973+03:00","level":"INFO","msg":"stream: closed","id":"grly5vnf"}

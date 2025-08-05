@@ -1,0 +1,66 @@
+_wandb:
+    value:
+        cli_version: 0.21.0
+        e:
+            cvv4w8nu28anet41mxfhthmh0qgbr97m:
+                apple:
+                    ecpuCores: 4
+                    gpuCores: 10
+                    memoryGb: 16
+                    name: Apple M3
+                    pcpuCores: 4
+                    ramTotalBytes: "17179869184"
+                    swapTotalBytes: "1073741824"
+                cpu_count: 8
+                cpu_count_logical: 8
+                disk:
+                    /:
+                        total: "494384795648"
+                        used: "149471666176"
+                email: denesites12@gmail.com
+                executable: /usr/local/bin/python3
+                host: Fatih-MacBook-Pro-3.local
+                memory:
+                    total: "17179869184"
+                os: macOS-15.5-arm64-arm-64bit
+                program: /Users/fatihbayazit/Desktop/2025YAZ/BİL476/proje/FF-datamining/main.py
+                python: CPython 3.12.1
+                root: /Users/fatihbayazit/Desktop/2025YAZ/BİL476/proje/FF-datamining
+                startedAt: "2025-07-29T18:02:48.629684Z"
+                writerId: cvv4w8nu28anet41mxfhthmh0qgbr97m
+        m: []
+        python_version: 3.12.1
+        t:
+            "1":
+                - 1
+                - 11
+                - 41
+                - 49
+                - 50
+            "2":
+                - 1
+                - 11
+                - 41
+                - 49
+                - 50
+            "3":
+                - 13
+                - 16
+                - 61
+            "4": 3.12.1
+            "5": 0.21.0
+            "6": 4.52.3
+            "10":
+                - 20
+            "12": 0.21.0
+            "13": darwin-arm64
+input:
+    value: '{''batch_size'': 100, ''dataset'': ''fmnist''}'
+model:
+    value: '{''hidden_dim'': 78}'
+name:
+    value: fmnist_unsup
+seed:
+    value: 42
+training:
+    value: '{''epochs'': 60, ''learning_rate'': 0.005, ''weight_decay'': 0, ''momentum'': 0.9, ''type'': ''unsupervised''}'

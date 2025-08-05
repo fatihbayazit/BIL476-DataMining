@@ -1,0 +1,36 @@
+Model(
+  (act_fn): ReLU()
+  (model): Sequential(
+    (0): Linear(in_features=784, out_features=32, bias=True)
+  )
+  (ff_loss): BCEWithLogitsLoss()
+  (linear_classifier): Sequential(
+    (0): Linear(in_features=32, out_features=784, bias=True)
+  )
+  (classification_loss): MSELoss()
+  (sigmoid): Sigmoid()
+)
+
+Epoch 0 	train 	 	Time: 0:00:06.515159 	Loss: 3.0954 	loss_layer: 2.9389 	ff_accuracy_layer: 0.7108 	
+Epoch 0 	val 	 	Time: 0:00:01.185007 	Loss: 0.1370 	
+Epoch 1 	train 	 	Time: 0:00:07.555861 	Loss: 2.1949 	loss_layer: 2.0621 	ff_accuracy_layer: 0.7642 	
+Epoch 1 	val 	 	Time: 0:00:01.153988 	Loss: 0.1184 	
+Epoch 2 	train 	 	Time: 0:00:07.548156 	Loss: 1.8080 	loss_layer: 1.6890 	ff_accuracy_layer: 0.7838 	
+Epoch 2 	val 	 	Time: 0:00:01.168017 	Loss: 0.1252 	
+Epoch 3 	train 	 	Time: 0:00:07.880980 	Loss: 1.7944 	loss_layer: 1.6876 	ff_accuracy_layer: 0.7923 	
+Epoch 3 	val 	 	Time: 0:00:01.489689 	Loss: 0.0977 	
+Epoch 4 	train 	 	Time: 0:00:08.418185 	Loss: 1.8253 	loss_layer: 1.7248 	ff_accuracy_layer: 0.7949 	
+Epoch 4 	val 	 	Time: 0:00:01.185238 	Loss: 0.0961 	
+Epoch 5 	train 	 	Time: 0:00:07.935899 	Loss: 1.9361 	loss_layer: 1.8417 	ff_accuracy_layer: 0.7822 	
+Epoch 5 	val 	 	Time: 0:00:01.239789 	Loss: 0.0880 	
+Epoch 6 	train 	 	Time: 0:00:07.984006 	Loss: 2.0850 	loss_layer: 1.9861 	ff_accuracy_layer: 0.7851 	
+Epoch 6 	val 	 	Time: 0:00:01.183326 	Loss: 0.0973 	
+Epoch 7 	train 	 	Time: 0:00:07.887244 	Loss: 2.0148 	loss_layer: 1.9251 	ff_accuracy_layer: 0.7870 	
+Epoch 7 	val 	 	Time: 0:00:01.189737 	Loss: 0.0779 	
+Epoch 8 	train 	 	Time: 0:00:07.666954 	Loss: 1.9978 	loss_layer: 1.9131 	ff_accuracy_layer: 0.7852 	
+Epoch 8 	val 	 	Time: 0:00:01.176551 	Loss: 0.0867 	
+Epoch 9 	train 	 	Time: 0:00:07.751786 	Loss: 2.2907 	loss_layer: 2.2032 	ff_accuracy_layer: 0.7842 	
+Epoch 9 	val 	 	Time: 0:00:01.172701 	Loss: 0.0815 	
+saving model
+train 	 	Time: 0:00:05.826568 	Loss: 0.0777 	
+test 	 	Time: 0:00:01.768885 	Loss: 0.0773 	

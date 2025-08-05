@@ -1,0 +1,36 @@
+Model(
+  (act_fn): ReLU()
+  (model): Sequential(
+    (0): Linear(in_features=784, out_features=32, bias=True)
+  )
+  (ff_loss): BCEWithLogitsLoss()
+  (linear_classifier): Sequential(
+    (0): Linear(in_features=32, out_features=784, bias=True)
+  )
+  (classification_loss): MSELoss()
+  (sigmoid): Sigmoid()
+)
+
+Epoch 0 	train 	 	Time: 0:00:01.642804 	Loss: 0.1273 	
+Epoch 0 	val 	 	Time: 0:00:00.297594 	Loss: 0.0971 	
+Epoch 1 	train 	 	Time: 0:00:01.856987 	Loss: 0.0919 	
+Epoch 1 	val 	 	Time: 0:00:00.291339 	Loss: 0.0870 	
+Epoch 2 	train 	 	Time: 0:00:01.892364 	Loss: 0.0827 	
+Epoch 2 	val 	 	Time: 0:00:00.300879 	Loss: 0.0781 	
+Epoch 3 	train 	 	Time: 0:00:01.889752 	Loss: 0.0744 	
+Epoch 3 	val 	 	Time: 0:00:00.293863 	Loss: 0.0708 	
+Epoch 4 	train 	 	Time: 0:00:01.905478 	Loss: 0.0682 	
+Epoch 4 	val 	 	Time: 0:00:00.314359 	Loss: 0.0656 	
+Epoch 5 	train 	 	Time: 0:00:02.023310 	Loss: 0.0637 	
+Epoch 5 	val 	 	Time: 0:00:00.483549 	Loss: 0.0617 	
+Epoch 6 	train 	 	Time: 0:00:02.387067 	Loss: 0.0603 	
+Epoch 6 	val 	 	Time: 0:00:00.309248 	Loss: 0.0587 	
+Epoch 7 	train 	 	Time: 0:00:01.901513 	Loss: 0.0578 	
+Epoch 7 	val 	 	Time: 0:00:00.291696 	Loss: 0.0565 	
+Epoch 8 	train 	 	Time: 0:00:01.843215 	Loss: 0.0558 	
+Epoch 8 	val 	 	Time: 0:00:00.290683 	Loss: 0.0547 	
+Epoch 9 	train 	 	Time: 0:00:01.924879 	Loss: 0.0541 	
+Epoch 9 	val 	 	Time: 0:00:00.295909 	Loss: 0.0531 	
+saving model
+train 	 	Time: 0:00:01.433175 	Loss: 0.0533 	
+test 	 	Time: 0:00:00.930173 	Loss: 0.0529 	

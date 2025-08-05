@@ -1,0 +1,13 @@
+seed: 42
+name: fmnist_unsup
+input:
+  batch_size: 100
+  dataset: fmnist
+model:
+  hidden_dim: 78
+training:
+  epochs: 60
+  learning_rate: 0.005
+  weight_decay: 0
+  momentum: 0.9
+  type: bp
